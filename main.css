@@ -6,6 +6,8 @@ ul {
     list-style-type: none;
 }
 a {
+    font-size: larger;
+    word-spacing: .5em;
     color: rgb(216, 216, 216);
     text-decoration: none;
 }
