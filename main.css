@@ -15,3 +15,15 @@ a {
     border-color: black;
     background-color:rgb(128, 13, 13) ;
 }
+main {
+    border: 2px solid #501d1d; /*dark burg*/
+    padding: 20px;/*adding some space inside the card*/
+    margin: 20px; /*adding some space outside the card*/
+    background-color:#e9b3b3; /*light burg*/
+}
+h2 {
+    color: #690e0e;
+}
+p {
+    color: rgb(29, 29, 29);
+}
