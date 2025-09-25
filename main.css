@@ -39,3 +39,6 @@ p {
 .about h2 {
     text-align: left;
 }
+#secondarylist ul a  {
+    color: #3d3d3d; 
+}
