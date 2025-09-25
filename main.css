@@ -9,6 +9,10 @@ ul {
     text-decoration: none;
     list-style-type: none;
 }
+#secondarylist ul a {
+    text-align: left;
+    color: #111c58;
+}
 a {
     font-size: larger;
     word-spacing: .5em;
@@ -39,6 +43,7 @@ p {
 .about h2 {
     text-align: left;
 }
-#secondarylist ul a  {
-    color: #3d3d3d; 
+#secondarylist ul {
+    text-align: left;
+
 }
