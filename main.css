@@ -21,6 +21,8 @@ a {
 }
 main {
     border: 2px solid #501d1d; /*dark burg*/
+    border-radius: 3em; /*rounds out corners of corders*/
+    text-align: center;
     padding: 20px;/*adding some space inside the card*/
     margin: 20px; /*adding some space outside the card*/
     background-color:#e9b3b3; /*light burg*/
@@ -30,4 +32,7 @@ h2 {
 }
 p {
     color: rgb(29, 29, 29);
+}
+#second h3 {
+    color: #690e0e;
 }
