@@ -36,3 +36,6 @@ p {
 #second h3 {
     color: #690e0e;
 }
+.about h2 {
+    text-align: left;
+}
