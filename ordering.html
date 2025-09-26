@@ -24,10 +24,49 @@
         <h1>Place Order</h1>
     </header>
     <main>
-        <h2>hello</h2>
-        <p>
-            This is a test
-        </p>
+        <h2>Please Fill out Order Form</h2>
+        <!-- beginning of the form element-->
+         <form action="/submit" method="post">
+
+            <!-- Label and text input field-->
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" placeholder="Enter your name">
+
+             <br> <!-- adds a line break-->
+
+             <!-- Label and email input field-->
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="example@example.com">
+
+                <br>
+
+                <!--Dropdown select for country selection-->
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <!--...other options...-->
+                </select>
+
+                <br>
+
+                <!--Textarea for additional comments-->
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+                <br>
+
+                <!--File input for uploading files-->
+                <label for="file">Upload your photo:</label>
+                <input type="file" id="file" name="file">
+
+                <br> 
+
+                <!--Reset button to reset the form fields-->
+                <input type="reset" value="reset">
+
+            </form>
+            <!--End of the form element-->
     </main>
     <footer>
         <div id="foot"><p>&copy;Inkspire Printing 2025 |<a href="https://github.com/samian96">github.com/samian96</a></p></div>
