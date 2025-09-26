@@ -24,10 +24,46 @@
         <h1>Contact Us</h1>
     </header>
     <main>
-        <h2>hello</h2>
-        <p>
-            This is a test
-        </p>
+        <div id="form">
+        <h2>Contact Us</h2>
+        <p>Either submit a comment or reach us at our email.</p>
+        <!--href mailto adds link to email address-->
+        <p>Email:<a href="mailto:inkspireprinting@mail.com">inkspireprinting@mail.com</a></p>
+        <!--href tel adds link to phone number-->
+        <p>Phone:<a href="tel:098-765-4321">098-765-4321</a></p>
+            
+        <br>
+
+        <!-- beginning of the form element-->
+        <form action="/submit" method="post">
+
+        <!-- Label and text input field-->
+        <label for="username">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <br> <!-- adds a line break-->
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Enter your subject">
+
+        <br>
+
+        <!--Textarea for additional comments-->
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter comment here"></textarea>
+
+        <br>
+
+        <!--Reset button to reset the form fields-->
+
+        <input type="reset" value="reset"> 
+        <input type="submit" value="submit">
+
+        <br>
+
+        </form>
+        </div>
+        <!--End of the form element-->
     </main>
     <footer>
         <div id="foot"><p>&copy;Inkspire Printing 2025 |<a href="https://github.com/samian96">github.com/samian96</a></p></div>
