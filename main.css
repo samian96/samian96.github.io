@@ -59,4 +59,21 @@ footer {
 #form a {
     color: #111c58;
 }
+/*conditional styling for hover state*/
+a:hover {
+    background-color: #da9797; /*Bright burgundy background color*/
+    color: rgb(105, 21, 21); /*burgundy text color*/
+}
+/*Styling the button*/
+button {
+    padding: 5px 10px; /*adding some space inside the button*/
+    border: none; /*removing the border*/
+    background-color: #ecf0f1; /*light gray background color*/
+    cursor: pointer; /*changing the cursor to a pointer*/
+    transition: all 0.3 ease; /*adding a transition*/
+}
+/*condition styling for the hover state*/
+button:hover {
+    background-color: red; /*red background color*/
+}
 
