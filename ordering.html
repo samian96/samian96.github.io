@@ -25,6 +25,7 @@
     </header>
     <main>
         <h2>Please Fill out Order Form</h2>
+        <p>For graphic design option quantity does not apply</p>
         <!-- beginning of the form element-->
          <form action="/submit" method="post">
 
@@ -50,6 +51,27 @@
 
                 <br>
 
+                <!--Dropdown select for service selection-->
+                <label for="Service">Service:</label>
+                <select id="country" name="country">
+                    <option value="graphicdesign">Graphic Design</option>
+                    <option value="screenprinting">ScreenPrinting</option>
+                    <option value="digitalprinting">Digital Printing</option>
+                    <option value="embroidery">Embroidery</option>
+                    <!--...other options...-->
+                </select>
+
+                <label for="quantity">Quantity</label>
+                <select id="country" name="country">
+                    <option value="12">12</option>
+                    <option value="24">24</option>
+                    <option value="36">36</option>
+                    <option value="48">48</option>
+                    <!--...other options...-->
+                </select>                    
+
+                <br>
+
                 <!--Textarea for additional comments-->
                 <label for="comments">Comments:</label>
                 <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
@@ -65,7 +87,6 @@
                 <!--Reset button to reset the form fields-->
                 <input type="reset" value="reset">
 
-                <br>
                 <!--Submit to submit the form file-->
                 <input type="submit" value="sumbit">
 
