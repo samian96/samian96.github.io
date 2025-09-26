@@ -6,6 +6,9 @@ main {
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+p {
+    font-size: larger;
+}
 h1 {
     color: rgb(129, 0, 0);
 }
