@@ -35,27 +35,35 @@ main {
     margin: 20px; /*adding some space outside the card*/
     background-color:#e9b3b3; /*light burg*/
 }
+/*changes h2 elements to burgundy*/
 h2 {
     color: #690e0e;
 }
+/*changes p elements dark grey*/
 p {
     color: rgb(29, 29, 29);
 }
+/*changes id second/h3 to burgundy*/
 #second h3 {
     color: #690e0e;
 }
+/*aligns h2 to left margin*/
 .about h2 {
     text-align: left;
 }
+/*aligns secondarylist id /ul element to left*/
 #secondarylist ul {
     text-align: left;
 }
+/*creates burgundy background to footer*/
 footer {    
     background-color: #690e0e;
 }
+/*div id foot p text change to light red*/
 #foot p{ 
     color: #e9b3b3;
 }
+/*id form a changes text color to navy*/
 #form a {
     color: #111c58;
 }
@@ -85,14 +93,14 @@ table {
 }
 /*Adds border around the content*/
 th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(146, 146, 146);
     padding: .2em .7em;
     text-align: right; 
     & left {
         text-align: left;
     }
 }
-/*creates green background inside of the thead*/
+/*creates white text for thead*/
 thead {
     color: #cba4f0;
 
@@ -117,8 +125,5 @@ th:nth-child(2), td:nth-child(2) {
     text-align: center;
     background-color: #363d66;
 }
-/*Changes background to silver on all even tbody*/
-tbody tr:nth-child(even) {
-    background-color: silver;
-}
+
 
