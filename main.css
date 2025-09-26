@@ -125,5 +125,19 @@ th:nth-child(2), td:nth-child(2) {
     text-align: center;
     background-color: #363d66;
 }
+/*changes text alignment for id who*/
+#who {
+    text-align: left;
+}
+#what {
+    text-align: left;
+}
+#history
+{
+    text-align: left;
+}
+#future {
+    text-align: left;
+}
 
 
