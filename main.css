@@ -5,9 +5,6 @@ html {
 h1 {
     color: rgb(129, 0, 0);
 }
-p {
-    text-size-adjust: large;
-}
 ul {
     text-decoration: none;
     list-style-type: none;
@@ -48,4 +45,10 @@ p {
 }
 #secondarylist ul {
     text-align: left;
+}
+footer {    
+    background-color: #690e0e;
+}
+#foot p{ 
+    color: #e9b3b3;
 }
