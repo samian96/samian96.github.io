@@ -76,4 +76,49 @@ button {
 button:hover {
     background-color: red; /*red background color*/
 }
+/*Adds the border around the table*/
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: .5em auto;
+}
+/*Adds border around the content*/
+th, td {
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: right; 
+    & left {
+        text-align: left;
+    }
+}
+/*creates green background inside of the thead*/
+thead {
+    color: #cba4f0;
+
+}
+/*aligns content of tbody to the right and left*/
+tbody { 
+    color: #dddddd;
+        border: 1px black;
+    padding: .2em .7em;
+    text-align: right; 
+    & left {
+        text-align: left;
+    }
+
+}
+/*Centers the text inside of thead*/
+th:first-child, td:first-child {
+    text-align: center;
+    background-color: #363d66;
+}
+th:nth-child(2), td:nth-child(2) {
+    text-align: center;
+    background-color: #363d66;
+}
+/*Changes background to silver on all even tbody*/
+tbody tr:nth-child(even) {
+    background-color: silver;
+}
 
