@@ -22,3 +22,11 @@ document.getElementById("scoreboard-x").textContent = scoreX; // should grab the
 
 document.getElementById("scoreboard-o").textContent = scoreO; // should grab the scoreboard-o content on html and save the win 
 
+// turn display updates // 
+
+function updateTurnDisplay() { // function to update which players turn it is
+    document.getElementById("turn").textContent= currentPlayer; // targets the id named turn to show current players turn
+}
+updateTurnDisplay(); // executes the function
+
+
