@@ -84,3 +84,9 @@ function updateScore(winner) { // function to update the winner of the match
 };
 
 // function to reset game // 
+
+document.getElementById("button-play-again").addEventListener("click", () => { // event that listens for the mouse to click the reset button
+    board = ["", "", "", "", "","","","",""]; // targets the scoreboard variable
+    currentPlayer = "X"; // targets player x I am assuming
+    gameActive = true; // checks to see if the game is active and or sets the game to be active after pressing 
+});
