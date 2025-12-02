@@ -56,6 +56,11 @@ function checkScore() { // function to check the score
             showMessage(`${board[a]} has Won!`); // should display message that player has won the game
             updateScore(board[a]); // should update the scoreboard for the winning player
             return;
-        }
+        } 
+    }   if (!board.includes("")) { // if game ends in a tie this part of the loop should run
+        gameActive = false; // if I understand right should end the activity of the game
+        showMessage("Match is a Tie!"); // should display this message if this statement is correct
     }
 }; 
+
+
