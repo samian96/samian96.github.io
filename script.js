@@ -78,6 +78,8 @@ function updateScore(winner) { // function to update the winner of the match
         document.getElementById("scoreboard-x").textContent = scoreX; // should update the score on the scoreboard of the page
     } else { // else statement for if winner player X is not the case
         scoreO++ // adds to O players score 
+        sessionStorage.setItem("scoreO", scoreO) // should save the score for player O in the session storage while website isn up
+        document.getElementById("scoreboard-o").textContent = scoreO; // should update the score on the scoreboard of the webpage
     }
 };
 
