@@ -89,4 +89,6 @@ document.getElementById("button-play-again").addEventListener("click", () => { /
     board = ["", "", "", "", "","","","",""]; // targets the scoreboard variable
     currentPlayer = "X"; // targets player x I am assuming
     gameActive = true; // checks to see if the game is active and or sets the game to be active after pressing 
+    square.forEach(square => square.textContent =""); // should reset the squares back to their original state hopefully
+    updateTurnDisplay(); // should execute the reset after the event listener hears the button click
 });
