@@ -73,8 +73,12 @@ function showMessage(msg) { // if I understand should create an alert message to
 
 function updateScore(winner) { // function to update the winner of the match
     if (winner === "X") { // statement for if player X wins the match
-        scoreX++  // adds to X players score
+        scoreX++;  // adds to X players score
+        sessionStorage.setItem("scoreX", scoreX); // should save the score in the session storage while website is up
+        document.getElementById("scoreboard-x").textContent = scoreX; // should update the score on the scoreboard of the page
     } else { // else statement for if winner player X is not the case
         scoreO++ // adds to O players score 
     }
-}
+};
+
+// function to reset game // 
