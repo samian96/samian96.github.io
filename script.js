@@ -63,4 +63,10 @@ function checkScore() { // function to check the score
     }
 }; 
 
+// adding alert to display the winning message //
+
+function showMessage(msg) { // if I understand should create an alert message to pop up
+    alert(msg);
+};
+
 
