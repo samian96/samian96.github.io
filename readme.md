@@ -10,3 +10,6 @@ added function to display which players turn it will be. Added event listener to
 
 -Update 3:
 Added function to update the score if one of the players wins the match, as well to display the winner of the match. Added if statement for if the match ends in a tie, should display that the game is a tie and no score update happens.
+
+- Update 4:
+added alert for message to pop up, added function for players score to track if x player has won than move onto else statement for player O.
