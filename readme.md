@@ -7,3 +7,6 @@ Added variable for x and o player, added constant for win conditions on the grid
 
 -update 2:
 added function to display which players turn it will be. Added event listener to focus on the board when as spot is clicked by the player. Finished the event listener to check for results of which player has clicked.
+
+-Update 3:
+Added function to update the score if one of the players wins the match, as well to display the winner of the match. Added if statement for if the match ends in a tie, should display that the game is a tie and no score update happens.
