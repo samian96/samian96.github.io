@@ -69,4 +69,12 @@ function showMessage(msg) { // if I understand should create an alert message to
     alert(msg);
 };
 
+// function to update the score board //
 
+function updateScore(winner) { // function to update the winner of the match
+    if (winner === "X") { // statement for if player X wins the match
+        scoreX++  // adds to X players score
+    } else { // else statement for if winner player X is not the case
+        scoreO++ // adds to O players score 
+    }
+}
