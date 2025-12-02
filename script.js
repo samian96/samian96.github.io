@@ -37,5 +37,11 @@ squares.forEach((square, index) => { // event function to target squares on the 
     square.addEventListener("click", () => { // event listener to see if the player has input a click of the mouse on the element
         if (board[index] !=="" || !gameActive) // focuses on the board if the game is active
             return; // should return the input of the event listener 
+                board[index] = currentPlayer; // should return information from the current players click
+                square.textContent = currentPlayer; // should return text content of current player x 
+
+            checkResult(); // should check which players turn it was to return the result of their click
+            currentPlayer = currentPlayer === "X"? "O" : "X"; // checking to see if player turn is equal to X player or O player
+            updateTurnDisplay(); // should executes function of the event listener 
     })
 });
