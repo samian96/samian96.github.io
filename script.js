@@ -45,3 +45,11 @@ squares.forEach((square, index) => { // event function to target squares on the 
             updateTurnDisplay(); // should executes function of the event listener 
     })
 });
+
+// function to check the win or tie of the match //
+
+function checkScore() { // function to check the score
+    for (let combo of winningCombos) {  // start of the for loop of this function
+        const [a, b, c] = combo; // constant variable to set combo for winning
+    }
+}
