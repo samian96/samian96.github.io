@@ -29,4 +29,13 @@ function updateTurnDisplay() { // function to update which players turn it is
 }
 updateTurnDisplay(); // executes the function
 
+// handling click event listeners for player //
 
+const squares = document.querySelectorAll(".game-square"); // targets all elements with the class of game-square instead of using id selector for each square
+
+squares.forEach((square, index) => { // event function to target squares on the board
+    square.addEventListener("click", () => { // event listener to see if the player has input a click of the mouse on the element
+        if (board[index] !=="" || !gameActive) // focuses on the board if the game is active
+            return; // should return the input of the event listener 
+    })
+});
