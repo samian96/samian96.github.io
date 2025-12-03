@@ -51,7 +51,7 @@ squares.forEach((square, index) => { // event function to target squares on the 
 function checkScore() { // function to check the score
     for (let combo of winCombos) {  // start of the for loop of this function
         const [a, b, c] = combo; // constant variable to set combo for winning
-        if (board[a] === board[c]) { // checks to see if constant a and c are equal
+        if (board[a] !== "" && board[a] === board[b] && board[b] === board[c]) { // checks to see if constant a and c are equal
             gameActive = false; // If I understand right should end the activity of the game
             showMessage(`${board[a]} has Won!`); // should display message that player has won the game
             updateScore(board[a]); // should update the scoreboard for the winning player
