@@ -15,4 +15,7 @@ Added function to update the score if one of the players wins the match, as well
 added alert for message to pop up, added function for players score to track if x player has won than move onto else statement for player O. Added function to update the score for both x and o player in the session storage as well as to update the scoreboard.
 
 - Update 5: 
-added event listener for the reset button, should reset the board to its original state if everything is written properly.
+added event listener for the reset button, should reset the board to its original state if everything is written properly. Fixed spelling errors throughout code, variables where misspelled in functions so it was not catching the problem.
+
+link to github.io 
+https://samian96.github.io/
