@@ -49,7 +49,7 @@ squares.forEach((square, index) => { // event function to target squares on the 
 // function to check the win or tie of the match //
 
 function checkScore() { // function to check the score
-    for (let combo of winningCombos) {  // start of the for loop of this function
+    for (let combo of winCombos) {  // start of the for loop of this function
         const [a, b, c] = combo; // constant variable to set combo for winning
         if (board[a] === board[c]) { // checks to see if constant a and c are equal
             gameActive = false; // If I understand right should end the activity of the game
